@@ -67,7 +67,7 @@ def readFile(filename,type):
     """
     Read JSON & txt files
     """
-    with open(currentPath+"/"+filename,"r") as f:
+    with open(filename,"r") as f:
         
         if type == "list":
             lines = [line.rstrip() for line in f]
